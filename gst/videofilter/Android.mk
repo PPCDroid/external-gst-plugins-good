@@ -22,7 +22,7 @@ LOCAL_C_INCLUDES := 				\
 	external/gst-plugins-base/gst-libs 	\
 	external/gst-plugins-base/gst-libs/gst/video/android \
 	external/gstreamer		 	\
-	external/gstreamer/android 		\
+	external/gstreamer/android/arch/$(TARGET_ARCH)   \
 	external/gstreamer/libs			\
 	external/gstreamer/gst			\
 	external/gstreamer/gst/android		\
